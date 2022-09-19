@@ -1,0 +1,117 @@
+
+
+*** Everything in python is Object ****
+
+
+number
+-----
+number can be integer or octal or decimal or hexa.
+
+aval = 10
+bVal = 23.34
+
+
+string
+--------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell scripting"
+cname = """scala programming"""
+
+
+
+list ( array in C )
+----------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+List elements are defined in [].
+
+alist = [10,20,30,40]
+blist = [34,"unix","java",34.34]
+
+
+
+
+
+tuple ( immutable or unchangeable or uneditable)
+--------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+****** Elements inside tuple cannot be modified *******
+
+
+atup = (30,4,34.34,"unix")
+
+
+dictionary ( json , hashmap in java, hash in perl)
+-------------
+dictionary contains elements in the form of keys and values.
+dictionary elements are defined in {}.
+In dictionary key is either number or string used to uniquely identify the value
+             value can be number or string or list or tuple or dictionary or 
+                                                  any complex data structure
+
+syntax:    object = { key:value , key:value , key:value }
+example:    book  = {"chap1":10 ,"chap2":20 ,"chap3":30}
+            bookin= {"chap1":[10,"Rita","US"] ,"chap2":[20,"Ram","UK"] }
+            numbers = {1:2,3:4,5:6}
+      
+
+
+
+set
+-----
+set is UNORDERED collection of UNIQUE values of the same type.
+
+
+aset = {10,10,10,20,30,30}
+bset = {30,30,30,40,50,50}
+
+
+
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+    level2
+else:
+    level2
+    level2
+    level2
+
+
+
+
+
+mutability and immutability
+-----------------------------
+
+immutable objects ( unchangeable objects )
+-------------------
+number
+string
+tuple
+( Elements inside tuple cannot be modified)
+
+
+mutable objects ( changeable Objects)
+-------------------
+list
+dictionary
+set
+
+
+
+
+
+
+
+
+
+
+
