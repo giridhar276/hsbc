@@ -275,7 +275,15 @@ Write a Python program to display the below information.
 
 ------------------------------------------------------------------------------------------------------------
 
-Write a Python program to create 100 directories in the current directory.
+Write a Python program to create 100 directories in the current directory as below
+
+dir1
+dir2
+dir3
+..
+..
+dir100
+
 ------------------------------------------------------------------------------------------------------------
 
 
@@ -287,6 +295,26 @@ Write a Python program to create a empty file with today’s timestamp.
 Eg: 22_Sep_2022.csv
 ------------------------------------------------------------------------------------------------------------
 Write a Python program to archive all the files that are older than 100 days from the current directory.
+------------------------------------------------------------------------------------------------------------
+
+create 2 directories as below in your current working directory
+
+source       : copy few files to the source directory
+destination  : should be empty
+
+write a program to copy all the files from source directory to the destination directory
+
+------------------------------------------------------------------------------------------------------------
+
+write a program to move all the files from source directory to the destination directory
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
