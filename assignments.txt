@@ -164,7 +164,129 @@ display the total count of ‘unix’ in the list
 
 
 
+Define dictionary as below
 
+ytag = {
+  "kind": "youtube#searchListResponse",
+  "etag": "1111111m2yskBQFythfE4irbTIeOgYYfBU",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "KE",
+  "pageInfo": {
+    "totalResults": 4249,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2222222m2yskBQFythfE4irbTIeOgYYfBU",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCJowOS1R0FnhipXVqEnYU1A"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3333333m2yskBQFythfE4irbTIeOgYYfBU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eqa2nAAhHN0"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "44444444m2yskBQFythfE4irbTIeOgYYfB",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IirngItQuVs"
+      }
+    }
+  ]
+}
+Write a Python program to display all etag information from the dictionary
+
+
+
+1111111m2yskBQFythfE4irbTIeOgYYfBU
+2222222m2yskBQFythfE4irbTIeOgYYfBU
+3333333m2yskBQFythfE4irbTIeOgYYfBU
+44444444m2yskBQFythfE4irbTIeOgYYfB
+
+#########################################################################################################
+
+------------------------------------------------------------------------------------------------------------
+1. Write a Python program to display all the files and directories from the current directory.
+------------------------------------------------------------------------------------------------------------
+2. Write a Python program to display all the files and directories from the C:\ or \usr\bin (if using Linux).
+------------------------------------------------------------------------------------------------------------
+3. Write a Python program to display ONLY .py that are existing in the current directory.
+------------------------------------------------------------------------------------------------------------
+4. Write a Python program to display ONLY .py files and its size as below from the current directory with proper formatting.
+
+Sample output:
+update_customer.py   108 bytes
+customer_info.py      45 bytes
+remote_server.py      49 bytes
+------------------------------------------------------------------------------------------------------------
+
+Write a Python program to display ONLY .py files and its size as below from the current directory with proper formatting.
+------------------------------------------------------------------------------------------------------------
+
+Write a Python program to display all the files and folders separately and its count also.
+
+files
+------
+file1
+file2
+file3
+
+Total no. of files : 504
+
+directories
+------------
+dir1
+dir2
+dir3
+
+Total no. of direcotires : 453
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+Write a Python program to display the below information.
+
+display the current user name
+display current working directory
+display Operating system name
+display process id of your running program
+display the current timestamp
+display yesterday’s date
+display tomorrow’s date
+display all the environment variables that are existing
+
+
+------------------------------------------------------------------------------------------------------------
+
+Write a Python program to display the below information.
+– disk utilization of C:\ ( total , used and free space)
+– disk utilization of \tmp ( if using linux)
+– display CPU utilization
+– display Memory utilization
+
+------------------------------------------------------------------------------------------------------------
+
+Write a Python program to create 100 directories in the current directory.
+------------------------------------------------------------------------------------------------------------
+
+
+Write a Python program to create 100 directories in D:\ or \tmp( if using Linux)
+------------------------------------------------------------------------------------------------------------
+
+Write a Python program to create a empty file with today’s timestamp.
+
+Eg: 22_Sep_2022.csv
+------------------------------------------------------------------------------------------------------------
+Write a Python program to archive all the files that are older than 100 days from the current directory.
 
 
 
