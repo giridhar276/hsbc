@@ -309,6 +309,21 @@ write a program to copy all the files from source directory to the destination d
 write a program to move all the files from source directory to the destination directory
 
 ------------------------------------------------------------------------------------------------------------
+write a program to display all the files and directories from the current directory to the output file .
+
+files.txt
+---------
+file1
+file2
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------
 
 
 
